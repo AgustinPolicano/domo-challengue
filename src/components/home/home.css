@@ -1,0 +1,155 @@
+.home-flex {
+  display: flex;
+  width: 100%;
+  margin-top: 70px;
+}
+.container-home-text {
+  width: 100%;
+  margin-left: 120px;
+  max-width: 600px;
+  margin-right: 200px;
+  padding-top: 70px;
+}
+.container-home-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.img-home {
+  border-radius: 30px;
+  width: 60vh;
+  height: auto;
+}
+
+.text-h3 {
+  color: #1459e2;
+  font-family: 600;
+}
+
+.title-text {
+  padding-top: 20px;
+}
+
+.subtitle-text {
+  padding-top: 30px;
+  color: #313035;
+  span {
+    color: #8b8b8d;
+  }
+}
+
+.container-logos-home {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.h3-subtitle {
+  max-width: 250px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.subtitle-p {
+  color: #313035;
+  font-weight: 500;
+}
+
+.learn-text {
+  padding-top: 30px;
+  display: flex;
+}
+
+hr {
+  border-top: 1px solid black;
+  width: 5%;
+  margin-left: 0px;
+}
+
+.icon-arrow {
+  width: 20px;
+  padding-left: 5px;
+}
+
+@media (max-width: 1400px) {
+  .img-home {
+    margin-right: 20px;
+  }
+  .container-home-text {
+    margin-right: 50px;
+    padding-top: 20px;
+  }
+  .container-home-img {
+    display: block;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1070px) {
+    .img-home{
+        width: 55vh;
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+    .container-home-text{
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+    .container-home-text{
+        margin: 10px;
+    }
+    .container-home-img{
+        width: 70%;
+        margin-top: 0px;
+    }
+}
+
+
+@media (min-width: 700px) and (max-width: 900px) {
+    .container-home-text{
+        max-width: initial;
+    }
+    .subtitle-p{
+        max-width: 250px;
+    }
+    .container-logos-home{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 700px) {
+  .home-flex {
+    margin-top: 10px;
+  }
+  .container-home-text {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .img-home {
+    display: none;
+  }
+  .container-home-img {
+    display: none;
+  }
+  .container-logos-home {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .learn-text {
+    justify-content: center;
+  }
+  .hr-low {
+    display: none;
+  }
+  .icon-img-home {
+    padding-top: 20px;
+  }
+}
+
+
+.delete-img{
+    display: none;
+}
